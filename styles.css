@@ -17,6 +17,7 @@ body {
   height: 70px;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 a {
