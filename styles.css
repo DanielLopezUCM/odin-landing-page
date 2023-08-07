@@ -7,13 +7,16 @@ body {
   justify-content: space-between;
 }
 
-.footer {
+.header, .footer {
   background-color: rgb(58, 66, 87);
+}
+
+.footer {
   margin: 0px;
-  display: flex;
   justify-content: center;
-  align-items: center;
   height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 a {
@@ -23,30 +26,25 @@ a {
   flex-shrink: 0;
 }
 
-.header a {
+.header-top a {
   background-color: rgb(36, 40, 53);
   border-radius: 16px;
   padding: 6px 10px;
   border: 2px solid rgb(194, 50, 50);
 }
 
-.header a:hover {
+.header-top a:hover {
   background-color: rgb(80, 91, 119);
 }
 
 .footer a:hover {
-  color: #ffb3de;
+  color: #b884fc;
 }
 
-.header {
-  display: flex;
+.header-top {
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 80px;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top: 30px;
-  background-color: rgb(58, 66, 87);
+  display: flex;
 }
 
 .header #logo-icon {
@@ -69,7 +67,74 @@ a {
   width: 5px;
 }
 
-.header h1 {
+.header-top h1 {
   color: rgb(231, 25, 25);
   font-size: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 120px;
+  gap: 40px;
+}
+
+#desktop-setup-img {
+  width: 40%;
+  border-radius: 5px;
+  height: auto;
+}
+
+.header-content {
+  display: flex;
+  gap: 40px;
+}
+
+.header-content h1 {
+  color: white;
+  font-size: 36px;
+}
+
+.header-content p {
+  color: rgb(214, 220, 226);
+}
+
+.card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 9px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 70px;
+}
+
+.flexible {
+  flex-grow: 1;
+}
+
+.phrase {
+  background-color: rgb(213, 219, 219);
+  padding:40px 20%;
+}
+.phrase .text {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.phrase .right, .phrase .author {
+  text-align: right;
+}
+
+.author {
+  font-weight: 900;
 }
