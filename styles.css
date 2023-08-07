@@ -2,22 +2,74 @@ body {
   margin: 0px;
   height: 100vh;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer {
-  background-color: rgb(64, 73, 97);
+  background-color: rgb(58, 66, 87);
   margin: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 70px;
 }
 
-.footer a {
+a {
+  color: rgb(255, 56, 56);
+  font-weight: 550;
   text-decoration: none;
-  color: rgb(128, 193, 247)
+  flex-shrink: 0;
+}
+
+.header a {
+  background-color: rgb(36, 40, 53);
+  border-radius: 16px;
+  padding: 6px 10px;
+  border: 2px solid rgb(194, 50, 50);
+}
+
+.header a:hover {
+  background-color: rgb(80, 91, 119);
 }
 
 .footer a:hover {
-  color: #d8d8d8;
+  color: #ffb3de;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 30px;
+  background-color: rgb(58, 66, 87);
+}
+
+.header #logo-icon {
+  width: 65px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.header #logo-container {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(36, 40, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 2px solid rgb(100, 114, 148);
+}
+
+#logo-container div {
+  width: 5px;
+}
+
+.header h1 {
+  color: rgb(231, 25, 25);
+  font-size: 40px;
 }
