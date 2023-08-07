@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+}
+
+.footer {
+  background-color: rgb(64, 73, 97);
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(128, 193, 247)
+}
+
+.footer a:hover {
+  color: #d8d8d8;
+}
