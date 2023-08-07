@@ -101,7 +101,7 @@ a {
 }
 
 .card {
-  width: 150px;
+  width: 18%;
   display: flex;
   flex-direction: column;
   text-align: center;
